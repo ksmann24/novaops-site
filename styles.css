@@ -111,18 +111,25 @@ h1, h2, h3, h4, p { margin-top: 0; }
 
 h1 {
   margin-bottom: 24px;
-  font-size: clamp(2.85rem, 6.2vw, 5.85rem);
+  font-size: clamp(2.7rem, 5.7vw, 5.35rem);
   line-height: 0.96;
-  letter-spacing: -0.045em;
+  letter-spacing: -0.035em;
   font-weight: 900;
   color: var(--deep-navy);
+}
+
+
+
+.headline-line {
+  display: block;
+  white-space: nowrap;
 }
 
 h2 {
   margin-bottom: 18px;
   font-size: clamp(1.9rem, 3.6vw, 3.35rem);
   line-height: 0.97;
-  letter-spacing: -0.055em;
+  letter-spacing: -0.032em;
   font-weight: 900;
   color: var(--deep-navy);
 }
