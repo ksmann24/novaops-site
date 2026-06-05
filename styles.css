@@ -112,8 +112,8 @@ h1, h2, h3, h4, p { margin-top: 0; }
 h1 {
   margin-bottom: 24px;
   font-size: clamp(2.85rem, 6.2vw, 5.85rem);
-  line-height: 0.91;
-  letter-spacing: -0.075em;
+  line-height: 0.96;
+  letter-spacing: -0.045em;
   font-weight: 900;
   color: var(--deep-navy);
 }
